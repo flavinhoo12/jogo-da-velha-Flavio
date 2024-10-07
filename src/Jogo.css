@@ -1,0 +1,16 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: solid 2px blueviolet;
+}
+#container div {
+    border: solid 2px blueviolet;
+    width: 200px;
+    height: 200px;
+    align-content: center;
+}
+.quadrado {
+    font-size: 80px;
+    text-shadow: 0 0 10px #ca1bff, 0 0 20px #eb9bff, 0 0 30px #b000e6, 0 0 40px #b000e6, 0 0 50px #b000e6, 0 0 60px #b000e6, 0 0 70px #b000e6;
+    color: rgb(250, 238, 255);   
+}

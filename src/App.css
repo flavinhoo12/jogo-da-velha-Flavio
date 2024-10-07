@@ -1,0 +1,25 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(29, 29, 29) !important;
+}
+
+#container {
+  margin-top: 20px !important;
+  box-shadow: rgba(225, 0, 255, 0.4) 0px 30px 90px;
+}
+
+.divBotoes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.divBotoes>* {
+  font-size: 20px !important;
+  width: 200px;
+}

@@ -1,0 +1,26 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 10%;
+}
+
+.modal > * {
+    background-color: rgb(68, 68, 68) !important;
+    color: white;
+    width: 30% !important;
+    margin: 0 auto;
+}
+
+.display-block {
+    display: block !important;
+}
+
+.display-none {
+    display: none !important;
+}
+
+#jogarNovamente {
+    margin-top: 10px !important;
+}
