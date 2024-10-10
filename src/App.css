@@ -1,25 +1,37 @@
-#root {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;  
 }
 
-body {
-  background-color: rgb(29, 29, 29) !important;
+.jogo-container {
+  flex: 2;
 }
 
-#container {
-  margin-top: 20px !important;
-  box-shadow: rgba(225, 0, 255, 0.4) 0px 30px 90px;
+.placar-container {
+  flex: 1;
+  margin-left: 20px;
 }
 
 .divBotoes {
-  display: flex;
-  justify-content: space-evenly;
+  margin-top: 20px;
 }
 
-.divBotoes>* {
-  font-size: 20px !important;
-  width: 200px;
+
+@media (max-width: 768px) {
+  #container {
+      width: 100%;
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  #container div {
+      width: 100px;
+      height: 100px;
+  }
+
+  .quadrado {
+      font-size: 40px;
+  }
 }
